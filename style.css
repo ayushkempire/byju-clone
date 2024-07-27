@@ -92,21 +92,151 @@ nav .menu .search {
     left: 0;
     margin-top: 45px;
 }
-
+.sel{
+    display: flex;
+    justify-content: space-around;
+}
 .hero .form {
-	width: 610px;
-	height: 550px;
+    background-color: white;
     right: 0;
     position: absolute;
     z-index: 1008;
     margin-top: -47rem;
+    padding: 30px 20px;
     margin-right: 9.5rem;
     border-radius: 20px;
+    text-align: center;
+}
+.rad{
+    opacity: 0;
+    position: absolute;
+    width: 26% !important;
+    height: 36px !important;
+    border: 0 !important;
+    cursor: pointer;
+}
+.session-ticked {
+    display: none;
+}
+.rbut  {
+    display: inline-block;
+    color: #171717;
+    width: 49%;
+    border: 1px solid #E4E4E4;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 0 15px;
+    line-height: 34px;
+    text-decoration: none;
+    vertical-align: baseline;
+    text-align: center;
+    margin-left: 0px;
+    min-width: 64px;
 }
 
-.hero .form > img{
-	height: 100%;
-	width: 100%;
+
+.hero .form form {
+    display: inline-grid;
+}
+.selectinput .form-control
+{
+    background-color: transparent;
+    cursor: pointer;
+    padding-right: 1.4rem;
+    z-index: 1;
+    width: 28rem;
+    margin-bottom: 25px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #adadadb0;
+}
+
+.hero .form form input {
+    width: 28rem;
+    margin-bottom: 25px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #adadadb0;
+}
+
+.hero .form form .book-class {
+    padding: 10px 10px;
+    font-size: 25px;
+    font-weight: 1000;
+    background: linear-gradient(135deg, #ff8e32, #ff5263);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.hero .form form .otp {
+    width: 90px;
+    padding: 10px 10px;
+    font-size: 15px;
+    border: transparent;
+    background: linear-gradient(135deg, #5e70ff, #8b40ff);
+    border-radius: 5px;
+    margin-top: -63px;
+    margin-bottom: 25px;
+    margin-left: 22.3rem;
+    cursor: pointer;
+    color: white;
+}
+
+.hero .form .top {
+    font-size: 23px;
+    font-weight: 500;
+    color: #313131;
+    margin-bottom: 10px;
+}
+
+.hero .form .middle {
+    font-size: 13px;
+    font-weight: 400;
+    color: #666666;
+    margin-bottom: 10px;
+}
+
+.hero .form .bottom {
+    font-size: 18px;
+    font-weight: 500;
+    color: #313131;
+    margin-bottom: 10px;
+}
+
+.hero .form form ion-icon {
+    margin-top: -50px;
+    margin-left: 26.5rem;
+    color: #616161b0;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.hero .form .hr1 {
+    border: 1px solid #adadad49;
+    width: 8.5rem;
+    margin-left: 12px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.hero .form .hr2 {
+    border: 1px solid #adadad49;
+    width: 8.5rem;
+    margin-left: 20rem;
+    margin-top: -22px;
+    margin-bottom: 22px;
+}
+
+.hero .curves {
+    position: absolute;
+    z-index: 1008;
+    width: 101%;
+    margin-top: -56px;
 }
 
 .sec2 {
